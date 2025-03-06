@@ -3,19 +3,31 @@
 ## Generating Data
 
 This file contains implementations based upon measuring and plotting the frequencies
-of value occurrence. I also implemented a new collatz function. Use the following to
-generate data for a custom range of numbers
+of value occurrence. I also implemented a new collatz function. 
+
+## Usage
+
+Use
+
+```sh
+g++ -o collatzWithFrequency collatzWithFrequency.cpp
+```
+
+To generate the .exe to genereate the data in .csv files. 
+Use
 
 ```sh
 ./collatzWithFrequency.exe "Min" "Max"
 ```
 
-with min and max being the min and max integers for which you wish to calculate the
-collatz data with. The c++ program will automatically output to two csv's, one to 
-keep track of the frequencies and one to keep track of the counts.
+To generate data for numbers Min-Max
 
-Once you have generated your data, use py ./"script_name.py" to plot the data you
-have generated. This makes it easy to take a look a different custom data sets.
+Use
+
+```sh
+pip install matplotlib
+py "scriptName.py"
+```
 
 I am using dot plots here as they are more conducive to larger amounts of data.
 I also change my methodology in this file. the python scripts no longer run the
