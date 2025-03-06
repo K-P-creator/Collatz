@@ -8,7 +8,7 @@ generate data for a custom range of numbers
 
 ```sh
 ./collatzWithFrequency.exe "Min" "Max"
-
+```
 
 with min and max being the min and max integers for which you wish to calculate the
 collatz data with. The c++ program will automatically output to two csv's, one to 
