@@ -11,15 +11,14 @@ Use
 g++ -o collatzWithFrequency collatzWithFrequency.cpp
 ```
 
-To generate the .exe to genereate the data in .csv files. 
+To generate the .exe to genereate the data in .csv files for numbers min-max
 Use
 
 ```sh
 ./collatzWithFrequency.exe "Min" "Max"
 ```
 
-To generate data for numbers Min-Max
-
+To plot the data on the graphs
 Use
 
 ```sh
