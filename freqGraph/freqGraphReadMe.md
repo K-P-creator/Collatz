@@ -1,7 +1,5 @@
 # Frequency Graphs Read Me
 
-## Generating Data
-
 This file contains implementations based upon measuring and plotting the frequencies
 of value occurrence. I also implemented a new collatz function. 
 
