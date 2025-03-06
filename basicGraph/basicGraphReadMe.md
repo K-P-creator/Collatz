@@ -24,9 +24,9 @@ many time 2 showed up as the output for the functions.
 
 ### oneDigGraph.py
 
-This script will run the exe nine times, and graph the results for all the one
-digit numbers (1-9). I use a bar graph here which will later be changed to a
-scatter plot for increased readability with large datasets
+This script will run the exe nine times, and graph the resultig counts for all 
+the one digit numbers (1-9). I use a bar graph here which will later be changed
+to a scatter plot for increased readability with large datasets
 
 ### variableRangeGraph.py
 
