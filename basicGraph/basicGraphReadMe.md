@@ -7,6 +7,24 @@ databases for improved performance. The collatz main here also does not compute
 more than one number at a time, and is called multiple times by the python script
 using a single command line argument to pass the input integer to the exe
 
+## Usage
+
+Use
+
+```sh
+g++ -o collatz collatz.cpp
+```
+
+To generate the .exe to be called by the py scripts. Ensure you name the exe
+using the -o flag or the scripts will not be able to find it.
+
+Use
+
+```sh
+pip install matplotlib
+py "scriptName.py"
+```
+
 ## Definitions
 
 ### Count
