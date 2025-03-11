@@ -9,6 +9,7 @@ using a single command line argument to pass the input integer to the exe
 
 ## Usage
 
+To compile the c++ code into an executable
 Use
 
 ```sh
@@ -18,6 +19,7 @@ g++ -o collatz collatz.cpp
 To generate the .exe to be called by the py scripts. Ensure you name the exe
 using the -o flag or the scripts will not be able to find it.
 
+To run the python scripts (after compiling .exe)
 Use
 
 ```sh
@@ -42,7 +44,7 @@ many time 2 showed up as the output for the functions.
 
 ### oneDigGraph.py
 
-This script will run the exe nine times, and graph the resultig counts for all 
+This script will run the exe nine times, and graph the resulting counts for all 
 the one digit numbers (1-9). I use a bar graph here which will later be changed
 to a scatter plot for increased readability with large datasets
 
