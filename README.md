@@ -16,7 +16,7 @@ While no proof exists, the conjecture holds for all tested numbers, leading to i
 
 ## Program Usage
 
-See the indiviual READMME's inside the files for specific instructions on usage.
+See the indiviual README's inside the files for specific instructions on usage.
 
 ## Summary
 
