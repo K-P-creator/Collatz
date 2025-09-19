@@ -12,7 +12,7 @@ The **Collatz Conjecture** is a mathematical problem proposed by Lothar Collatz 
    `n = 3n + 1`
 3. Repeat the process until `n == 1`.
 
-While no proof exists, the conjecture holds for all tested numbers, leading to interesting numerical patterns.
+There is no current proof of the conjecture. However, there are many interesting numerical patterns that appear throughout the data that we can explore with MatPlotLib.
 
 ## Program Usage
 
@@ -20,4 +20,6 @@ See the indiviual README's inside the files for specific instructions on usage.
 
 ## Summary
 
-This project explores the Collatz Conjecture through computational analysis and visualization. By generating and plotting frequency/count distributions, I aim to uncover hidden patterns in this intriguing mathematical sequence.
+The main goal of this project was to learn more about data visualization, as well as practice integrating python scripts and high performing C++ code into one project. The following are a few examples of the data I gathered about the conjecture. The **count** statistic refers to the number of recursive calls made to the Collatz function before the given input number reduced to 1. The **frequency** statistic refers to how often a given number appears in the conjecture when I run through a given range of numbers.
+
+![Graph1](basicGraph/graphs/variableRangeGraph.png)
