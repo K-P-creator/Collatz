@@ -20,8 +20,9 @@ See the indiviual README's inside the files for specific instructions on usage.
 
 ## Summary
 
-The main goal of this project was to learn more about data visualization, as well as practice integrating python scripts and high performing C++ code into one project. The following are a few examples of the data I gathered about the conjecture. The **count** (or recursive repetitions) statistic refers to the number of recursive calls made to the Collatz function before the given input number reduced to 1. The **frequency** statistic refers to how often a given number appears in the conjecture when I run through a given range of numbers.
+The main goal of this project was to learn more about data visualization in python, as well as practice integrating python scripts and high performing C++ code into one project. The following are a few examples of the data I gathered about the conjecture. The **count** (or recursive repetitions) statistic refers to the number of recursive calls made to the Collatz function before the given input number reduced to 1. The **frequency** statistic refers to how often a given number appears in the conjecture when I run through a given range of numbers.
 
 ![Graph1](basicGraph/graphs/variableRangeGraph.png)
 ![Graph2](freqGraph/graphs/exampleFreqGraph1-100.png)
 ![Graph3](freqGraph/graphs/exampleGraph1-1000.png)
+
